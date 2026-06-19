@@ -27,11 +27,17 @@ import { SectionHeading } from "@/components/site/SectionHeading";
 // const heroImg = "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1920&q=80";
 const zoomImg = "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1400&q=80";
 
+const fadeInUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0 },
+};
+
 const fadeUp = {
-    initial: { opacity: 0, y: 40 },
-    whileInView: { opacity: 1, y: 0 },
+    variants: fadeInUp,
+    initial: "hidden",
+    whileInView: "visible",
     viewport: { once: true, margin: "-80px" },
-    transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] as const },
 };
 
 export default function HomePage() {
