@@ -3,7 +3,7 @@ import { SectionHeading } from "@/components/site/SectionHeading";
 import { Quote } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Success Stories | Apex Mathematics Institute",
+    title: "Success Stories | Raj Mathematics Institute",
 };
 
 export default function SuccessStoriesPage() {

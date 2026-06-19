@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Menu, X, Sigma } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 const NAV = [
@@ -30,12 +31,17 @@ export function Header() {
         <header className="fixed top-0 left-0 right-0 z-50 w-full bg-background/95 backdrop-blur-lg border-b border-border shadow-sm">
             <div className="container-page flex h-16 items-center justify-between md:h-20">
                 <Link href="/" className="flex items-center gap-2.5 group">
-                    <span className="grid h-10 w-10 place-items-center rounded-lg bg-primary text-primary-foreground shadow-md transition-transform group-hover:scale-105">
-                        <Sigma className="h-5 w-5" />
+                    <span className="relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-lg bg-white shadow-md transition-transform group-hover:scale-105">
+                        <Image
+                            src="/Logo.jpeg"
+                            alt="Raj Mathematics Logo"
+                            fill
+                            className="object-cover"
+                        />
                     </span>
                     <span className="flex flex-col leading-tight">
                         <span className="font-display text-lg font-semibold text-foreground">
-                            Apex Mathematics
+                            Raj Mathematics
                         </span>
                         <span className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
                             Institute

@@ -21,11 +21,12 @@ import {
     PlayCircle,
 } from "lucide-react";
 import heroImg from "@/public/hero.png";
+import zoomImg from "@/public/zoomImg.avif";
 import { SectionHeading } from "@/components/site/SectionHeading";
 
 // Utilizing high-quality Unsplash fallbacks for images to keep things operational
 // const heroImg = "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1920&q=80";
-const zoomImg = "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1400&q=80";
+// const zoomImg = "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1400&q=80";
 
 const fadeInUp = {
     hidden: { opacity: 0, y: 30 },
@@ -144,7 +145,7 @@ function WhyChoose() {
         <section className="py-24 lg:py-32">
             <div className="container-page">
                 <SectionHeading
-                    eyebrow="Why Apex"
+                    eyebrow="Why Raj"
                     title="Built around how students actually learn mathematics."
                     subtitle="We combine rigorous teaching with attentive mentoring — so every student grows in confidence as well as competence."
                 />

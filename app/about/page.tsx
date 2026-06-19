@@ -4,7 +4,7 @@ import { Calculator, GraduationCap, Clock, Briefcase, Target, Eye } from "lucide
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: "About Us | Apex Mathematics Institute",
+    title: "About Us | Raj Mathematics Institute",
 };
 
 const facultyDetails = [
@@ -42,7 +42,7 @@ export default function AboutPage() {
                 <SectionHeading
                     eyebrow="Our Story"
                     title="Shaping the Future of Mathematics Education"
-                    subtitle="Since 2008, Apex Mathematics Institute has been a beacon of excellence, empowering thousands of students to exceed their expectations and achieve academic brilliance in O/L and A/L Mathematics."
+                    subtitle="Since 2008, Raj Mathematics Institute has been a beacon of excellence, empowering thousands of students to exceed their expectations and achieve academic brilliance in O/L and A/L Mathematics."
                     align="center"
                 />
 
@@ -107,7 +107,7 @@ export default function AboutPage() {
                 <div className="mt-32">
                     <SectionHeading
                         eyebrow="Leadership & Faculty"
-                        title="Meet the Visionaries Behind Apex"
+                        title="Meet the Visionaries Behind Raj"
                         subtitle="Our renowned educators bring decades of academic excellence, university-level lecturing experience, and a passion for mentoring the next generation."
                         align="center"
                     />

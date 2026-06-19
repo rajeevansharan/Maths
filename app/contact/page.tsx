@@ -36,7 +36,7 @@ export default function ContactPage() {
                     </h1>
                     <p className="lg:text-lg text-body lg:max-w-2xl mx-auto leading-relaxed">
                         We&apos;re here to help! Reach out to us with any questions or
-                        inquiries about LearnApp
+                        inquiries about Raj Mathematics Institute
                     </p>
                 </motion.section>
 
@@ -158,7 +158,7 @@ export default function ContactPage() {
                                                 <h4 className="font-bold text-sm text-main">
                                                     Email Address
                                                 </h4>
-                                                <p className="text-sm text-body">info@LearnApp.com</p>
+                                                <p className="text-sm text-body">info@rajmath.com</p>
                                             </div>
                                         </div>
 

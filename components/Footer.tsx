@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Sigma, Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
+import Image from "next/image";
 
 const FacebookIcon = (props: React.SVGProps<SVGSVGElement>) => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" {...props}>
@@ -27,11 +28,16 @@ export function Footer() {
             <div className="container-page py-16 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
                 <div>
                     <div className="flex items-center gap-2.5">
-                        <span className="grid h-10 w-10 place-items-center rounded-lg bg-gold text-gold-foreground">
-                            <Sigma className="h-5 w-5" />
+                        <span className="relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-lg bg-white">
+                            <Image
+                                src="/Logo.jpeg"
+                                alt="Raj Mathematics Logo"
+                                fill
+                                className="object-cover"
+                            />
                         </span>
                         <span className="font-display text-xl font-semibold text-white">
-                            Apex Mathematics
+                            Raj Mathematics
                         </span>
                     </div>
                     <p className="mt-4 text-sm leading-relaxed text-primary-foreground/70">
@@ -63,7 +69,7 @@ export function Footer() {
                     <h4 className="text-white font-display text-base mb-4">Contact</h4>
                     <ul className="space-y-3 text-sm">
                         <li className="flex gap-2.5"><Phone className="h-4 w-4 mt-0.5 shrink-0 text-gold" /> +94 77 123 4567</li>
-                        <li className="flex gap-2.5"><Mail className="h-4 w-4 mt-0.5 shrink-0 text-gold" /> hello@apexmath.lk</li>
+                        <li className="flex gap-2.5"><Mail className="h-4 w-4 mt-0.5 shrink-0 text-gold" /> hello@Rajmath.lk</li>
                         <li className="flex gap-2.5"><MapPin className="h-4 w-4 mt-0.5 shrink-0 text-gold" /> 24 Galle Road, Colombo 03, Sri Lanka</li>
                     </ul>
                 </div>
@@ -93,7 +99,7 @@ export function Footer() {
             </div>
             <div className="border-t border-white/10">
                 <div className="container-page py-6 text-xs text-primary-foreground/55 flex flex-col md:flex-row gap-2 justify-between">
-                    <span>© {new Date().getFullYear()} Apex Mathematics Institute. All rights reserved.</span>
+                    <span>© {new Date().getFullYear()} Raj Mathematics Institute. All rights reserved.</span>
                     <span>Built for excellence in mathematics education.</span>
                 </div>
             </div>
