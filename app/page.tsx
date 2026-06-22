@@ -3,7 +3,7 @@ import HomePage from "@/components/HomePage";
 
 export const metadata: Metadata = {
   title: "Raj Mathematics Institute — Excellence in Mathematics Education",
-  description: "Premier mathematics institution. O/L, A/L Combined, Pure & Applied Mathematics with experienced teachers, classroom and live Zoom programs.",
+  description: "Premier mathematics institution. Grade 6 to O/L Mathematics with experienced teachers, classroom and live Zoom programs.",
   alternates: {
     canonical: "/",
   },

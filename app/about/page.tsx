@@ -18,9 +18,9 @@ const facultyDetails = [
     },
     {
         name: "Ms. Sarah Fernando",
-        role: "Senior A/L Mathematics Instructor",
+        role: "Senior O/L Mathematics Instructor",
         qualification: "M.Sc. in Applied Mathematics",
-        occupation: "A/L Curriculum Developer",
+        occupation: "O/L Curriculum Developer",
         description: "Specializing in Applied Mathematics and Mechanics, Ms. Fernando utilizes interactive methods to build strong problem-solving skills in her students.",
         imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800"
     },
@@ -42,7 +42,7 @@ export default function AboutPage() {
                 <SectionHeading
                     eyebrow="Our Story"
                     title="Shaping the Future of Mathematics Education"
-                    subtitle="Since 2008, Raj Mathematics Institute has been a beacon of excellence, empowering thousands of students to exceed their expectations and achieve academic brilliance in O/L and A/L Mathematics."
+                    subtitle="Since 2008, Raj Mathematics Institute has been a beacon of excellence, empowering thousands of students to exceed their expectations and achieve academic brilliance in Grade 6 to O/L Mathematics."
                     align="center"
                 />
 

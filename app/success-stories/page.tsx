@@ -9,14 +9,14 @@ export const metadata: Metadata = {
 export default function SuccessStoriesPage() {
     const items = [
         {
-            quote: "My son went from a C to an A in A/L Combined Mathematics. The teaching is patient, structured and never rushed.",
+            quote: "My son went from a C to an A in O/L Mathematics. The teaching is patient, structured and never rushed.",
             author: "Mrs. Perera",
             role: "Parent",
         },
         {
             quote: "The Zoom classes feel exactly like the classroom. I never felt I was missing out, even from abroad.",
             author: "Senuri F.",
-            role: "A/L Student, Dubai",
+            role: "O/L Student, Dubai",
         },
         {
             quote: "Sir explains every concept until it clicks. Mathematics finally makes sense to me after struggling for years.",
@@ -26,7 +26,7 @@ export default function SuccessStoriesPage() {
         {
             quote: "Achieving an Island Rank in Mathematics felt impossible until I joined the revision prep seminars here.",
             author: "Kavindu M.",
-            role: "A/L Student, Colombo",
+            role: "O/L Student, Colombo",
         },
         {
             quote: "The constant assessments really show exactly where you stand. There's no guessing involved.",

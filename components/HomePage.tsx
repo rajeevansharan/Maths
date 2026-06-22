@@ -135,7 +135,7 @@ function Hero() {
 function WhyChoose() {
     const items = [
         { Icon: GraduationCap, title: "Experienced Educators", desc: "Senior mathematics teachers with 15+ years of classroom and exam-board expertise." },
-        { Icon: Trophy, title: "Proven Results", desc: "Consistent track record of A passes and distinctions across O/L and A/L exams." },
+        { Icon: Trophy, title: "Proven Results", desc: "Consistent track record of A passes and distinctions across Grade 6 to O/L exams." },
         { Icon: Users, title: "Personalised Support", desc: "Small group sizes and one-on-one mentoring so no student is left behind." },
         { Icon: Video, title: "Physical & Online", desc: "Choose in-class learning in Colombo or live interactive Zoom classes from anywhere." },
         { Icon: BookOpen, title: "Structured Curriculum", desc: "Comprehensive programs aligned with the national syllabus and modern exam patterns." },
@@ -203,10 +203,10 @@ function Stats() {
 function Programs() {
     const programs = [
         { Icon: Calculator, title: "O/L Mathematics", desc: "Strong fundamentals for confident exam performance." },
-        { Icon: LineChart, title: "A/L Combined Mathematics", desc: "Complete coverage of Pure & Applied with weekly tests." },
-        { Icon: Target, title: "A/L Pure Mathematics", desc: "Deep mastery of algebra, calculus, geometry and analysis." },
-        { Icon: Sparkles, title: "A/L Applied Mathematics", desc: "Mechanics and statistics taught with intuition and rigor." },
-        { Icon: BookOpen, title: "Foundation Mathematics", desc: "Build the right base before entering O/L or A/L." },
+        { Icon: LineChart, title: "Grade 9 Mathematics", desc: "Deepening mathematical concepts and preparing for O/L." },
+        { Icon: Target, title: "Grade 8 Mathematics", desc: "Building core skills in algebra, geometry and arithmetic." },
+        { Icon: Sparkles, title: "Grade 7 Mathematics", desc: "Developing analytical thinking and problem-solving skills." },
+        { Icon: BookOpen, title: "Grade 6 Mathematics", desc: "A strong foundation in basic mathematical principles." },
         { Icon: Award, title: "Revision & Exam Prep", desc: "Intensive paper-class series ahead of national exams." },
     ];
     return (
@@ -300,7 +300,7 @@ function ZoomSection() {
                     </div>
                     <div className="absolute -bottom-6 -left-6 rounded-xl bg-card border border-border shadow-xl p-4 max-w-[220px]">
                         <div className="text-xs uppercase tracking-widest text-muted-foreground">Live now</div>
-                        <div className="mt-1 font-display text-lg font-semibold text-foreground">A/L Combined</div>
+                        <div className="mt-1 font-display text-lg font-semibold text-foreground">O/L Revision</div>
                         <div className="text-xs text-muted-foreground">42 students online</div>
                     </div>
                 </motion.div>
@@ -312,14 +312,14 @@ function ZoomSection() {
 function TestimonialsPreview() {
     const items = [
         {
-            quote: "My son went from a C to an A in A/L Combined Mathematics. The teaching is patient, structured and never rushed.",
+            quote: "My son went from a C to an A in O/L Mathematics. The teaching is patient, structured and never rushed.",
             author: "Mrs. Perera",
             role: "Parent",
         },
         {
             quote: "The Zoom classes feel exactly like the classroom. I never felt I was missing out, even from abroad.",
             author: "Senuri F.",
-            role: "A/L Student, Dubai",
+            role: "O/L Student, Dubai",
         },
         {
             quote: "Sir explains every concept until it clicks. Mathematics finally makes sense to me.",
@@ -377,7 +377,7 @@ function FinalCTA() {
                                 <span className="italic text-gold">success journey</span> today.
                             </h2>
                             <p className="mt-5 text-white/75 max-w-xl text-base md:text-lg">
-                                Whether you're aiming for top O/L grades, A/L distinctions, or just want
+                                Whether you're aiming for top O/L grades, Grade 6 to 9 mastery, or just want
                                 mathematics to finally click — we'll meet you where you are.
                             </p>
                         </div>

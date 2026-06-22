@@ -160,10 +160,10 @@ function ModeCard({
 function ProgramsGrid() {
     const subjects = [
         { Icon: Calculator, title: "O/L Mathematics", desc: "Complete syllabus coverage with weekly tutorials and model papers." },
-        { Icon: LineChart, title: "A/L Combined Mathematics", desc: "Both Pure and Applied taught by senior subject specialists." },
-        { Icon: Target, title: "A/L Pure Mathematics", desc: "Deep mastery of algebra, calculus, vectors and analysis." },
-        { Icon: Sparkles, title: "A/L Applied Mathematics", desc: "Mechanics and statistics taught with intuition and visual clarity." },
-        { Icon: BookOpen, title: "Foundation Mathematics", desc: "Build a fluent base before stepping up to O/L or A/L work." },
+        { Icon: LineChart, title: "Grade 9 Mathematics", desc: "Comprehensive syllabus coverage and advanced concept building." },
+        { Icon: Target, title: "Grade 8 Mathematics", desc: "Deep mastery of algebra, geometry, and arithmetic foundations." },
+        { Icon: Sparkles, title: "Grade 7 Mathematics", desc: "Analytical thinking and problem-solving skills development." },
+        { Icon: BookOpen, title: "Grade 6 Mathematics", desc: "Build a fluent base before stepping up to higher grades." },
         { Icon: Award, title: "Revision Programs", desc: "Targeted topic revision and past-paper workshops." },
     ];
 
