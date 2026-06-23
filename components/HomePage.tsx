@@ -178,7 +178,7 @@ function WhyChoose() {
         { Icon: ClipboardCheck, title: "Continuous Assessment", desc: "Regular monitoring, weekly tests and detailed parent progress reports." },
     ];
     return (
-        <section className="py-24 lg:py-32">
+        <section className="py-24 lg:py-24">
             <div className="container-page">
                 <motion.div {...fadeUp}>
                     <SectionHeading
@@ -248,7 +248,7 @@ function Programs() {
         { Icon: ClipboardCheck, title: "Question Clarification", desc: "Dedicated support sessions to clarify doubts and master difficult questions." },
     ];
     return (
-        <section className="py-24 lg:py-32 bg-primary-soft/60">
+        <section className="py-24 lg:py-24 bg-primary-soft/60">
             <div className="container-page">
                 <motion.div {...fadeUp} className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
                     <SectionHeading
@@ -298,7 +298,7 @@ function ZoomSection() {
         "Direct WhatsApp support from teachers",
     ];
     return (
-        <section className="py-24 lg:py-32">
+        <section className="py-24 lg:py-24">
             <div className="container-page grid gap-14 lg:grid-cols-2 lg:gap-20 items-center">
                 <motion.div {...fadeUp}>
                     <SectionHeading
@@ -366,7 +366,7 @@ function TestimonialsPreview() {
         },
     ];
     return (
-        <section className="py-24 lg:py-32 bg-primary-soft/40 border-y border-border">
+        <section className="py-24 lg:py-24 bg-primary-soft/40 border-y border-border">
             <div className="container-page">
                 <motion.div {...fadeUp}>
                     <SectionHeading
@@ -406,7 +406,7 @@ function TestimonialsPreview() {
 
 function FinalCTA() {
     return (
-        <section className="py-24 lg:py-32">
+        <section className="py-24 lg:py-24">
             <div className="container-page">
                 <motion.div {...fadeUp} className="relative overflow-hidden rounded-3xl bg-primary-deep text-white p-10 md:p-16 lg:p-20">
                     <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_80%_20%,_var(--color-gold)_0,_transparent_50%)]" />

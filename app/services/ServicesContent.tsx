@@ -73,7 +73,7 @@ function ServicesHero() {
                         <span className="italic text-gold">exam success</span>.
                     </h1>
                     <p className="mt-8 max-w-2xl text-base md:text-lg lg:text-xl text-white/75 leading-relaxed">
-                        Classroom programs in Colombo and live Zoom classes worldwide — built for serious learners.
+                        Classroom programs in Jaffna and live Zoom classes across Sri Lanka — built for serious learners.
                     </p>
                 </motion.div>
             </div>

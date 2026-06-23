@@ -24,7 +24,7 @@ const YoutubeIcon = (props: React.SVGProps<SVGSVGElement>) => (
 
 export function Footer() {
     return (
-        <footer className="bg-primary-deep text-primary-foreground/85 mt-24">
+        <footer className="bg-primary-deep text-primary-foreground/85 mt-12">
             <div className="container-page py-16 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
                 <div>
                     <div className="flex items-center gap-2.5">
