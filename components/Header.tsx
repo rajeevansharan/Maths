@@ -37,6 +37,7 @@ export function Header() {
                             alt="Raj Mathematics Logo"
                             fill
                             className="object-cover"
+                            sizes="48px"
                         />
                     </span>
                     <span className="flex flex-col leading-tight">

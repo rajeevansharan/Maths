@@ -34,6 +34,7 @@ export function Footer() {
                                 alt="Raj Mathematics Logo"
                                 fill
                                 className="object-cover"
+                                sizes="48px"
                             />
                         </span>
                         <span className="font-display text-xl font-semibold text-white">

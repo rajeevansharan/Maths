@@ -54,6 +54,7 @@ function ServicesHero() {
                     fill
                     className="object-cover opacity-50 mix-blend-luminosity"
                     priority
+                    sizes="100vw"
                 />
             </div>
             {/* Grid Pattern Overlay */}
@@ -139,6 +140,7 @@ function ModeCard({
                     alt={title}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <div className="absolute top-6 left-6">
                     <span className={`inline-flex items-center rounded-full ${tagColor} px-4 py-1.5 text-[10px] uppercase tracking-widest font-bold text-white shadow-lg`}>

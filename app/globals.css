@@ -1,5 +1,4 @@
-@import "tailwindcss" source(none);
-@source "..";
+@import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
@@ -148,7 +147,9 @@
     caret-color: transparent;
   }
 
-  input, textarea, [contenteditable="true"] {
+  input,
+  textarea,
+  [contenteditable="true"] {
     caret-color: auto;
   }
 

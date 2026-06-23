@@ -84,6 +84,7 @@ function Hero() {
                     className="h-full w-full object-cover"
                     priority
                     fill
+                    sizes="100vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-deep via-primary-deep/85 to-primary/70" />
             </div>
@@ -159,6 +160,7 @@ function Hero() {
                             fill
                             className="object-cover"
                             priority
+                            sizes="(max-width: 1024px) 100vw, 50vw"
                         />
                         <div className="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-2xl pointer-events-none" />
                     </motion.div>
